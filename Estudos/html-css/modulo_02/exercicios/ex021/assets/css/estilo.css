@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*
+    Dicas de short hand para fontes
+    - font-style -> font-weight -> font-seize -> font-family
+*/
+
+h1 {
+    /*
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 3em;
+        font-weight: bolder;
+        font-style: italic;
+    */
+    font: italic bolder 3em 'Segoe UI', sans-serif;
+}
+
+

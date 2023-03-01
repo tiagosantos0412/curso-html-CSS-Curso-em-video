@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:  'Noto Sans', Verdada, 'Sans Serif';
+    font-size: 15px;
+    background: dimgray;
+}
+
+
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+header > nav {
+    background-color: rgb(97, 97, 97);
+    padding: 3px;
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.329);
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+}
+
+nav > a:hover {
+    background-color: lightgray;
+    color: black;
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px 0px;
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.329);
+}
+
+main > #assuntos {
+    color: gray;
+}
+
+footer {
+    margin: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer > p {
+    margin: 0;
+}
+
+article {
+    background-color: lightgray;
+}
+
+article > aside {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(112, 110, 110);
+    text-align: right;
+}

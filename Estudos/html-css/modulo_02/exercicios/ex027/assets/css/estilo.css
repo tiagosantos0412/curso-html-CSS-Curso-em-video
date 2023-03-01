@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    box-shadow: 6px 3px 5px rgb(173, 167, 167);
+    background-color: darkgray;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+span{
+    position: absolute;
+    margin-top: 100px;
+}
+
+div:hover {
+    background-color: rgb(163, 64, 64);
+    cursor: pointer;
+}  
+
+.caixa-de-texto {
+    width: 650px;
+    height: 200px;
+}
+
+.caixa-de-texto > p {
+    margin-top: 100px;
+    color: white;
+    display: none;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.caixa-de-texto:hover > p{
+    display: block;
+}

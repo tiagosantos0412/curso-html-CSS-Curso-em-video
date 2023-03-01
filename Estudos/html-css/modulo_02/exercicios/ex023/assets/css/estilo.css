@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Love';
+    src: url(../fonts/love\ larry\ ttf.ttf) format('truetype');
+}
+
+h1 {
+    font-family: 'Love', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+    Tipos de format()
+    - opentype (otf)
+    - truetype (ttf)
+    - embed-opentype
+    - truetype-aat (Apple Advanced Typography)
+    - svg 
+*/
+

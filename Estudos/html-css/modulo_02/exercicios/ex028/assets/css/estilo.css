@@ -1,0 +1,56 @@
+/*
+    #  = id
+    .  = class
+    :  = pseudo-classes
+    :: = pseudo-elementos
+    >  = children
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: lightsalmon;
+}
+
+a::after {
+    content: ' [link]';
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: normal;
+    color: lightgray;
+}
+
+.especial::before {
+    content: '✩ ';
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.especial::after {
+    content: ' ✩';
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}

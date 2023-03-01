@@ -1,0 +1,25 @@
+
+.cores_por_nome {
+    background-color: darkblue; 
+    color: white;
+}
+
+.cores_por_hexadecimal {
+    background-color: #00008b; 
+    color: #ffffff
+}
+
+.cores_por_rgb {
+    background-color: rgb(0, 0, 139); 
+    color: rgb(255, 255, 255)
+}
+
+.cores_por_hsl {
+    background-color: hsl(240, 100%, 27%); 
+    color: hsl(0, 0%, 100%)
+}
+
+.cores_por_rgba {
+    background-color: rgba(0, 0, 139, 0.5); 
+    color: white
+}

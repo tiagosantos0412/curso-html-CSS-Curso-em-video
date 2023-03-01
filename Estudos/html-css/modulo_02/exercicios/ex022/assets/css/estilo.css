@@ -1,0 +1,15 @@
+/*
+    Importando as fonts do Google fonts
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body {
+    font-family: 'Kalam', cursive;
+    font-size: 18px;
+    color: rgba(31, 30, 30, 0.76);
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+}

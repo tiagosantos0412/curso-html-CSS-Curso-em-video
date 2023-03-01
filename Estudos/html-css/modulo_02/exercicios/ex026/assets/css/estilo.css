@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+
+/*
+    em HTML tudo o que é id em CSS é #
+    em HTML tudo o que é class em CSS é .
+*/
+
+body {
+    font: bold 1em 'Noto Sans', Verdada, 'Sans Serif';
+    text-align: justify;
+    max-width: 800px;
+    background-color: rgba(180, 137, 107, 0.356);
+}
+
+h1 {
+    color: chocolate;
+}
+
+#principal {
+    text-align: center;
+    background-color: chocolate;
+    color: rgb(211, 189, 173);
+}
+
+h2 {
+    color: rgb(199, 128, 78);
+}
+
+p {
+    color: rgb(104, 71, 47);
+}
+
+.basico {
+    color: rgb(202, 119, 60);
+}
+
+.intermediario {
+    color: rgb(209, 106, 33);
+}
+
+.avancado {
+    color: rgb(211, 98, 17);
+}
