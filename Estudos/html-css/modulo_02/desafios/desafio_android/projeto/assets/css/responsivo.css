@@ -1,5 +1,28 @@
 /*Configurando a responsividade do site*/
 
-@media  {
+@media (min-width: 500px) and (max-width: 767px)  {
+    main {
+        width: auto;
+    }
+    .foto-mascote-android {
+        background-image: url(../imagens/dan-droids-pq.png);
+        height: 510px;
+        width: 400px;
+        background-repeat: no-repeat;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
     
+    .foto-irina-block {
+        background-image: url(../imagens/irina-blok-pq.jpg);
+        height: 400px;
+        width: 400px;
+        background-repeat: no-repeat;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    video {
+        width: auto;
+    }
 }
